@@ -15,15 +15,20 @@
         <header>
             
             <div class="signin-container">
+
                 <div class="signin-text">
                     <p>Already have an Intuit account?</p>
-                    <p>I forgot my User ID or Password</p>
+                    <!-- <a href="" class="forgotID-link">I forgot my User ID or Password</a> -->
+                    <p class="forgotID-link">I forgot my User ID or Password</p>
+
                 </div>
+
                 <div >
                     <button class="signin-btn">
                         <img src="images/lock.png" alt="lock icon" class="lock-img">
                         Sign In
                     </button>
+
                 </div>
             </div>
 
@@ -59,19 +64,77 @@
 
             </div>
 
+
+
             <div class="form">
 
-                <h1>this is the form</h1>
+                <div class="form-header">
+                    <h1>Create an Intuit account</h1>
+    
+                    <p>One account for everything Intuit, including</p>
+                    <p>Mint. <span>Learn more</span></p>
+                </div>
+
+                <form action="" class="form-main">
+
+                    <ul>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </li>
+
+                        <li>
+                            <label for="email">Phone <span>(recommended)</span></label>
+                            <input type="email" id="email" name="email">
+                            <p class="phone-smallprint">Standard call, message, or data rates may apply.</p>
+                        </li>
+
+                        <li class="password-container">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" class="password-input">
+                            <img src="/images/unlock.png" alt="unlock" class="logo-img unlock-img">
+                        </li>
+
+                        <li>
+                            <button class='submit-btn'>
+                                <img src="/images/lock.png" alt="lock logo" class="logo-img">
+                                Create Account
+                            </button>                        
+                        </li>
+
+                    </ul>
+
+
+
+
+                </form>
+
+                <div class="form-info">
+                    <p>By selecting Create account, you agree to our <span>Terms</span> and</p>
+                    <p>have read and acknowledge our <span>Global Privacy</span></p>
+                    <p><span>Statement</span>.</p>
+                </div>
+
+                <div class="form-footer">
+                    <p>Invisible reCAPTCHA by Google <span>Privacy Policy</span> and <span>Terms of Use</span>.</p>
+                </div>
+
+
 
             </div>
+
+
+
+
+
 
         </main>
         
         <footer>
             
-            <p> Legal  Privacy  Secrurity</p>
-            <p>2021 Inyuit, Inc. All rights reserved.</p>
-            <p>Terms and conditions, features, support, pricing and.....</p>
+            <p> <span>Legal</span> <span>Privacy</span> <span>Security</span></p>
+            <p>© 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+            <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
 
         </footer>
         
